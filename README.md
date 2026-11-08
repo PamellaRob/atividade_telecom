@@ -24,13 +24,6 @@ Análise da base **Telco Customer Churn** (IBM), com 7.043 clientes de uma opera
 - Cheque eletrônico (45,3%) e fibra ótica (41,9%) são os grupos com maior cancelamento.
 - As variáveis mais correlacionadas com `Churn` são `Contract` (-0,40), `tenure` (-0,35), `InternetService_Fiber optic` (0,31), `PaymentMethod_Electronic check` (0,30) e `InternetService_No` (-0,23).
 
-## Como executar
-
-1. Abra o notebook `U3_atividade_telecom.ipynb` no [Google Colab](https://colab.research.google.com/).
-2. Execute as células **em ordem, do início ao fim**. A base é carregada direto de um link público, sem precisar baixar nada.
-
-> Atenção: algumas células (conversões com `.map` e o one-hot) só funcionam na primeira execução. Para rodar de novo, reinicie a sessão e execute tudo desde o começo.
-
 ## Tecnologias
 
 Python, Pandas, NumPy e Matplotlib.
